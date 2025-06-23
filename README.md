@@ -10,8 +10,11 @@ This task demonstrates how to perform a basic network scan using **Nmap** to ide
 
 1. 🛠 Install Nmap
 Download and install Nmap from the [official website](https://nmap.org/download.html) or install via terminal:
+
 ''bash''
+
 sudo apt update
+
 sudo apt install nmap
 
 2.Find your local IP address using:
