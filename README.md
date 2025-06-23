@@ -18,7 +18,9 @@ sudo apt update
 sudo apt install nmap
 
 2.Find your local IP address using:
+
 ''bash''
+
 nmap 192.168.1.0/24
 
 3.Run nmap -sS 192.168.1.0/24 on bash to perform TCP SYN scan.
@@ -26,8 +28,11 @@ nmap 192.168.1.0/24
 4..Note down IP addresses and open ports found - This shows the number of ip addresses and open ports in our network.
 
 5.Analyze packet capture with Wireshark
+
 #Search wireshark on kali linux
+
 #after opening it, press the start option to start the packet capturing.
+
 #Analyze it.
 
 6..Research common services running on those ports.
